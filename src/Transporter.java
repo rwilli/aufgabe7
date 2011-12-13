@@ -78,11 +78,23 @@ public class Transporter {
 		return "Transporter [id=" + id + "]";
 	}
 
+	/**
+	 * load an animale to a specific section
+	 * @param a
+	 * @param n
+	 * @return boolean
+	 */
 	public boolean load(Animal a, int n) {
 
 		return a.loadTo(lstSections.get(n));
 	}
 
+	/**
+	 * load a trailer to a specific coupling
+	 * @param t
+	 * @param c
+	 * @return
+	 */
 	public boolean load(Trailer t, int c) {
 		return lstTrailerCouplings.get(c).load(t);
 	}

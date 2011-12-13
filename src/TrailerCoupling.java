@@ -1,10 +1,20 @@
-
+/**
+ * Class TrailerCoupling
+ * 
+ * @author Gruppe222
+ * 
+ */
 public class TrailerCoupling {
 	
 	final int id;
 	BigGame bigGame;
 	Trailer trailer;
 	
+	/**
+	 * Has also a unique Id and a BigGame animal or ah trailer
+	 * only one of them can hold a reference
+	 * @param id
+	 */
 	
 	TrailerCoupling(int id){
 		this.id = id;
@@ -12,6 +22,12 @@ public class TrailerCoupling {
 		trailer = null;
 	}
 	
+	/**
+	 * when loading a trailer, check if biggame or trailer hold a reference already
+	 * if not assign the trailer 
+	 * @param t
+	 * @return boolean
+	 */
 	public boolean load(Trailer t){
 		if(this.bigGame != null || this.trailer != null)
 			return false;
@@ -20,6 +36,12 @@ public class TrailerCoupling {
 		return true;
 		}
 	}
+	/**
+	 * when loading a biggame, check if biggame or trailer hold a reference already
+	 * if not assign biggame
+	 * @param biggame
+	 * @return boolean
+	 */
 	public boolean load(BigGame bigGame){
 		if(this.bigGame == null && this.trailer == null ){
 			this.bigGame = bigGame;
