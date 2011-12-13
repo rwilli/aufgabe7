@@ -8,6 +8,8 @@ public class Transporter {
 	final private LinkedList<TrailerCoupling> lstTrailerCouplings;
 	final int id;
 	
+	
+	
 	public Transporter(int id) {
 		this.id = id;
 		this.lstSections = new LinkedList<Section>();
@@ -24,18 +26,24 @@ public class Transporter {
 		this.lstTrailerCouplings.add(new TrailerCoupling(2));
 		this.lstTrailerCouplings.add(new TrailerCoupling(3));
 		
-		Animal tmp = new Giraffe("Giraffe an "+ id);
+		
+		// On the first two couplings are BigGames
+		BigGame tmp = new Giraffe("Giraffe at "+ id);
 		this.lstTrailerCouplings.get(1).load(tmp);
+		tmp = new Elephant("Elephant at "+ id);
+		this.lstTrailerCouplings.get(1).load(tmp);
+
 	}
 
 	public void list() {
 		
 		Iterator<Section> iter = lstSections.iterator();
 		System.out.println("Transporter: " + id);
+	
 		while(iter.hasNext()){
-			
-			if(iter.next().animal != null )
-				System.out.println("\t"+ iter.next().animal.name);
+			Section tmp = iter.next();
+			if(tmp.animal != null )
+				System.out.println("\t"+ tmp.animal.name);
 			
 		}
 		
