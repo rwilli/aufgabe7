@@ -11,7 +11,7 @@ public class Transporter {
 		this.lstSections = new LinkedList<Section>();
 		this.lstSections.add(new WaterTank());
 		this.lstSections.add(new WaterLandTank());
-		this.lstSections.add(new PythonTerrarium());
+		this.lstSections.add(new PhytonTerrarium());
 		this.lstSections.add(new MambaTerrarium());
 		this.lstSections.add(new GiantTortoiseTerrarium());
 		this.lstSections.add(new DwarfTortoiseTerrarium());
