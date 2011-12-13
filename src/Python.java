@@ -1,12 +1,12 @@
 /**
- * Class Python extends Reptiles
+ * Class Python extends Reptile
  * 
  * @author Gruppe222
  */
 public class Python extends Reptile {
 
 	/**
-	 * Standard constructor calls the super constructor
+	 * Constructor calls the super constructor
 	 * 
 	 * @param name
 	 *            the name of the python
