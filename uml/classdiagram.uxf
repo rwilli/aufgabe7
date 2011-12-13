@@ -5,7 +5,7 @@
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>469</x>
-      <y>105</y>
+      <y>140</y>
       <w>147</w>
       <h>112</h>
     </coordinates>
@@ -21,7 +21,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>469</x>
-      <y>266</y>
+      <y>301</y>
       <w>147</w>
       <h>35</h>
     </coordinates>
@@ -34,7 +34,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>448</x>
-      <y>7</y>
+      <y>42</y>
       <w>147</w>
       <h>35</h>
     </coordinates>
@@ -47,7 +47,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>637</x>
-      <y>245</y>
+      <y>280</y>
       <w>147</w>
       <h>35</h>
     </coordinates>
@@ -60,7 +60,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>525</x>
-      <y>21</y>
+      <y>56</y>
       <w>34</w>
       <h>97</h>
     </coordinates>
@@ -71,7 +71,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>518</x>
-      <y>196</y>
+      <y>231</y>
       <w>34</w>
       <h>83</h>
     </coordinates>
@@ -82,7 +82,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>553</x>
-      <y>196</y>
+      <y>231</y>
       <w>160</w>
       <h>62</h>
     </coordinates>
@@ -93,7 +93,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>49</x>
-      <y>133</y>
+      <y>168</y>
       <w>175</w>
       <h>98</h>
     </coordinates>
@@ -116,7 +116,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>714</x>
-      <y>56</y>
+      <y>91</y>
       <w>98</w>
       <h>35</h>
     </coordinates>
@@ -129,7 +129,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>714</x>
-      <y>7</y>
+      <y>42</y>
       <w>98</w>
       <h>35</h>
     </coordinates>
@@ -142,7 +142,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>574</x>
-      <y>14</y>
+      <y>49</y>
       <w>153</w>
       <h>69</h>
     </coordinates>
@@ -153,7 +153,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>287</x>
-      <y>385</y>
+      <y>420</y>
       <w>84</w>
       <h>28</h>
     </coordinates>
@@ -166,7 +166,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>658</x>
-      <y>385</y>
+      <y>420</y>
       <w>98</w>
       <h>28</h>
     </coordinates>
@@ -179,7 +179,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>406</x>
-      <y>385</y>
+      <y>420</y>
       <w>84</w>
       <h>28</h>
     </coordinates>
@@ -192,7 +192,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>553</x>
-      <y>385</y>
+      <y>420</y>
       <w>91</w>
       <h>28</h>
     </coordinates>
@@ -205,7 +205,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>847</x>
-      <y>301</y>
+      <y>336</y>
       <w>98</w>
       <h>28</h>
     </coordinates>
@@ -218,7 +218,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>574</x>
-      <y>0</y>
+      <y>35</y>
       <w>153</w>
       <h>34</h>
     </coordinates>
@@ -229,7 +229,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>322</x>
-      <y>280</y>
+      <y>315</y>
       <w>174</w>
       <h>118</h>
     </coordinates>
@@ -240,7 +240,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>441</x>
-      <y>280</y>
+      <y>315</y>
       <w>90</w>
       <h>118</h>
     </coordinates>
@@ -251,7 +251,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>539</x>
-      <y>280</y>
+      <y>315</y>
       <w>76</w>
       <h>118</h>
     </coordinates>
@@ -262,7 +262,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>763</x>
-      <y>252</y>
+      <y>287</y>
       <w>97</w>
       <h>69</h>
     </coordinates>
@@ -273,7 +273,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>847</x>
-      <y>245</y>
+      <y>280</y>
       <w>98</w>
       <h>28</h>
     </coordinates>
@@ -286,7 +286,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>847</x>
-      <y>357</y>
+      <y>392</y>
       <w>98</w>
       <h>28</h>
     </coordinates>
@@ -299,7 +299,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>763</x>
-      <y>238</y>
+      <y>273</y>
       <w>97</w>
       <h>34</h>
     </coordinates>
@@ -310,7 +310,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>735</x>
-      <y>259</y>
+      <y>294</y>
       <w>125</w>
       <h>118</h>
     </coordinates>
@@ -321,7 +321,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>588</x>
-      <y>280</y>
+      <y>315</y>
       <w>139</w>
       <h>118</h>
     </coordinates>
@@ -332,7 +332,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>0</x>
-      <y>308</y>
+      <y>343</y>
       <w>175</w>
       <h>49</h>
     </coordinates>
@@ -349,26 +349,8 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>364</x>
-      <y>504</y>
-      <w>84</w>
-      <h>35</h>
-    </coordinates>
-    <panel_attributes>MambaTerrarium
---
-
---
-
-
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
       <x>462</x>
-      <y>693</y>
+      <y>728</y>
       <w>98</w>
       <h>42</h>
     </coordinates>
@@ -386,7 +368,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>455</x>
-      <y>462</y>
+      <y>497</y>
       <w>84</w>
       <h>35</h>
     </coordinates>
@@ -403,19 +385,8 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>308</x>
-      <y>392</y>
-      <w>97</w>
-      <h>125</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>84;112;21;21</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
       <x>329</x>
-      <y>392</y>
+      <y>427</y>
       <w>153</w>
       <h>83</h>
     </coordinates>
@@ -426,7 +397,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>427</x>
-      <y>392</y>
+      <y>427</y>
       <w>83</w>
       <h>83</h>
     </coordinates>
@@ -437,7 +408,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>476</x>
-      <y>476</y>
+      <y>511</y>
       <w>41</w>
       <h>230</h>
     </coordinates>
@@ -445,39 +416,10 @@ Animal
     <additional_attributes>21;217;28;21</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>385</x>
-      <y>518</y>
-      <w>104</w>
-      <h>188</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>91;175;21;21</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>553</x>
-      <y>469</y>
-      <w>105</w>
-      <h>35</h>
-    </coordinates>
-    <panel_attributes>DwarfTortoiseTerrarium
---
-
---
-
-
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>679</x>
-      <y>469</y>
+      <y>504</y>
       <w>112</w>
       <h>35</h>
     </coordinates>
@@ -494,19 +436,8 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>497</x>
-      <y>483</y>
-      <w>111</w>
-      <h>223</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>21;210;98;21</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
       <x>518</x>
-      <y>483</y>
+      <y>518</y>
       <w>230</w>
       <h>223</h>
     </coordinates>
@@ -517,7 +448,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>602</x>
-      <y>392</y>
+      <y>427</y>
       <w>118</w>
       <h>90</h>
     </coordinates>
@@ -528,18 +459,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>707</x>
-      <y>392</y>
-      <w>48</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>35;77;21;21</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>588</x>
-      <y>392</y>
+      <y>427</y>
       <w>48</w>
       <h>90</h>
     </coordinates>
@@ -550,7 +470,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>819</x>
-      <y>434</y>
+      <y>469</y>
       <w>147</w>
       <h>28</h>
     </coordinates>
@@ -563,7 +483,7 @@ Animal
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>1092</x>
-      <y>441</y>
+      <y>476</y>
       <w>91</w>
       <h>28</h>
     </coordinates>
@@ -575,8 +495,8 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>1071</x>
-      <y>357</y>
+      <x>1078</x>
+      <y>392</y>
       <w>91</w>
       <h>28</h>
     </coordinates>
@@ -589,7 +509,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>924</x>
-      <y>245</y>
+      <y>280</y>
       <w>209</w>
       <h>125</h>
     </coordinates>
@@ -600,7 +520,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>945</x>
-      <y>434</y>
+      <y>469</y>
       <w>160</w>
       <h>34</h>
     </coordinates>
@@ -611,18 +531,18 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>945</x>
-      <y>350</y>
-      <w>139</w>
+      <y>385</y>
+      <w>146</w>
       <h>111</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>21;98;126;21</additional_attributes>
+    <additional_attributes>21;98;133;21</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>700</x>
-      <y>259</y>
+      <y>294</y>
       <w>146</w>
       <h>188</h>
     </coordinates>
@@ -633,18 +553,18 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>924</x>
-      <y>343</y>
-      <w>160</w>
+      <y>378</y>
+      <w>167</w>
       <h>41</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>147;28;21;21</additional_attributes>
+    <additional_attributes>154;28;21;21</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>910</x>
-      <y>364</y>
+      <y>399</y>
       <w>195</w>
       <h>97</h>
     </coordinates>
@@ -655,7 +575,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>924</x>
-      <y>308</y>
+      <y>343</y>
       <w>188</w>
       <h>146</h>
     </coordinates>
@@ -666,18 +586,18 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>924</x>
-      <y>294</y>
-      <w>174</w>
+      <y>329</y>
+      <w>181</w>
       <h>76</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>161;63;98;21;21;21</additional_attributes>
+    <additional_attributes>168;63;98;21;21;21</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>203</x>
-      <y>14</y>
+      <y>49</y>
       <w>258</w>
       <h>160</h>
     </coordinates>
@@ -688,7 +608,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>147</x>
-      <y>210</y>
+      <y>245</y>
       <w>328</w>
       <h>517</h>
     </coordinates>
@@ -699,7 +619,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>77</x>
-      <y>210</y>
+      <y>245</y>
       <w>34</w>
       <h>111</h>
     </coordinates>
@@ -710,7 +630,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>70</x>
-      <y>336</y>
+      <y>371</y>
       <w>405</w>
       <h>398</h>
     </coordinates>
@@ -721,7 +641,7 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>182</x>
-      <y>210</y>
+      <y>245</y>
       <w>678</w>
       <h>573</h>
     </coordinates>
@@ -732,11 +652,91 @@ Animal
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>21</x>
-      <y>336</y>
+      <y>371</y>
       <w>909</w>
       <h>475</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>21;21;28;462;896;462;896;126</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>588</x>
+      <y>427</y>
+      <w>48</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>35;77;21;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>497</x>
+      <y>518</y>
+      <w>111</w>
+      <h>223</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>21;210;98;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>553</x>
+      <y>504</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>DwarfTortoiseTerrarium
+--
+
+--
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>308</x>
+      <y>427</y>
+      <w>97</w>
+      <h>125</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>84;112;21;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>385</x>
+      <y>553</y>
+      <w>104</w>
+      <h>188</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>91;175;21;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>364</x>
+      <y>539</y>
+      <w>84</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>MambaTerrarium
+--
+
+--
+
+
+
+</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
