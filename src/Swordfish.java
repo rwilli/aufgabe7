@@ -1,5 +1,5 @@
 
-public class Swordfish extends Animal {
+public class Swordfish extends MarineLife {
 
 	public Swordfish(String name) {
 		super(name);

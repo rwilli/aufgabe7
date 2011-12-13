@@ -1,5 +1,5 @@
 
-public class Mamba extends Animal {
+public class Mamba extends Reptile {
 
 	public Mamba(String name) {
 		super(name);

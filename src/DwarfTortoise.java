@@ -1,5 +1,5 @@
 
-public class DwarfTortoise extends Animal {
+public class DwarfTortoise extends Reptile {
 
 	public DwarfTortoise(String name) {
 		super(name);

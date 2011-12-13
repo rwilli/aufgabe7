@@ -1,5 +1,5 @@
 
-public class Dolphin extends Animal {
+public class Dolphin extends MarineLife {
 
 	
 	public Dolphin(String name) {

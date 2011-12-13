@@ -1,5 +1,5 @@
 
-public class Phyton extends Animal {
+public class Phyton extends Reptile {
 
 	public Phyton(String name) {
 		super(name);

@@ -1,5 +1,5 @@
 
-public class Seal extends Animal {
+public class Seal extends MarineLife {
 
 	public Seal(String name) {
 		super(name);
