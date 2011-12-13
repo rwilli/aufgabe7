@@ -37,7 +37,9 @@ public class Test {
 		 * 
 		 */
 		Transporter trans1 = new Transporter(1);
-		trans1.load(dolphine, 0);
+		// This returns true, because a dolphine can be added to a WaterTank
+		System.out.println( trans1.load(dolphine, 0) );
+		System.out.println( trans1.load(dolphine, 0) );
 		
 		trans1.list();
 		
