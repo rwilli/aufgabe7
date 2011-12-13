@@ -15,7 +15,7 @@ public abstract class Section {
 	public Section() {
 		this.animal = null;
 	}
-	
+
 	public abstract boolean load(Mamba m);
 
 	public abstract boolean load(Phyton p);
@@ -23,12 +23,16 @@ public abstract class Section {
 	public abstract boolean load(DwarfTortoise d);
 
 	public abstract boolean load(GiantTortoise g);
-	
+
 	public abstract boolean load(Seal s);
 
 	public abstract boolean load(Dolphin d);
 
 	public abstract boolean load(Swordfish s);
 
-	public abstract Animal unload();
+	public Animal unload() {
+		Animal a = this.animal;
+		this.animal = null;
+		return a;
+	}
 }

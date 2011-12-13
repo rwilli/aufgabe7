@@ -6,31 +6,26 @@
  */
 public class WaterTank extends Tank {
 
-	public boolean load(Seal s) {
-		this.animal = s;
-		return true;
-	}
-
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see Tank#load(Dolphin)
+	 */
+	@Override
 	public boolean load(Dolphin d) {
 		this.animal = d;
-		return true;
-	}
-
-	public boolean load(Swordfish s) {
-		this.animal = s;
 		return true;
 	}
 
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see Section#unload()
+	 * @see Tank#load(Dolphin)
 	 */
 	@Override
-	public Animal unload() {
-		Animal a = this.animal;
-		this.animal = null;
-		return a;
+	public boolean load(Swordfish s) {
+		this.animal = s;
+		return true;
 	}
 
 }

@@ -5,39 +5,28 @@
  */
 public class GiantTortoiseTerrarium extends Terrarium {
 
-	/**
-	 * load Mamba is not possible
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see Terrarium#load(DwarfTortoise)
 	 */
-	public boolean load(Mamba m) {
-		return false;
-
-	}
-
-	public boolean load(Phyton p) {
-		return false;
-	}
-
+	@Override
 	public boolean load(DwarfTortoise d) {
 
 		this.animal = d;
 		return true;
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see Terrarium#load(DwarfTortoise)
+	 */
+	@Override
 	public boolean load(GiantTortoise g) {
 
 		this.animal = g;
 		return true;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see Section#unload()
-	 */
-	@Override
-	public Animal unload() {
-		Animal a = this.animal;
-		this.animal = null;
-		return a;
-	}
 }
