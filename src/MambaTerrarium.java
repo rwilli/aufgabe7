@@ -1,10 +1,10 @@
 /**
- * Class MambaTerrarium extends Section
+ * Class MambaTerrarium extends Terrarium
  * 
  * @author Gruppe222
  * 
  */
-public class MambaTerrarium extends Section {
+public class MambaTerrarium extends Terrarium {
 
 	public boolean load(Mamba m) {
 		this.animal = m;
@@ -26,82 +26,16 @@ public class MambaTerrarium extends Section {
 		return false;
 	}
 
-	public boolean load(Seal s) {
-
-		return false;
-	}
-
-	public boolean load(Dolphin d) {
-
-		return false;
-	}
-
-	public boolean load(Swordfish s) {
-
-		return false;
-	}
-
 	/*
 	 * (non-Javadoc)
-	 * @see Section#unload(Mamba)
+	 * 
+	 * @see Section#unload()
 	 */
 	@Override
-	public Animal unload(Mamba m) {
+	public Animal unload() {
+		Animal a = this.animal;
 		this.animal = null;
-		return m;
+		return a;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * @see Section#unload(Phyton)
-	 */
-	@Override
-	public Animal unload(Phyton p) {
-		return null;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * @see Section#unload(DwarfTortoise)
-	 */
-	@Override
-	public Animal unload(DwarfTortoise d) {
-		return null;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * @see Section#unload(GiantTortoise)
-	 */
-	@Override
-	public Animal unload(GiantTortoise g) {
-		return null;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * @see Section#unload(Seal)
-	 */
-	@Override
-	public Animal unload(Seal s) {
-		return null;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * @see Section#unload(Dolphin)
-	 */
-	@Override
-	public Animal unload(Dolphin d) {
-		return null;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * @see Section#unload(Swordfish)
-	 */
-	@Override
-	public Animal unload(Swordfish s) {
-		return null;
-	}
 }

@@ -25,14 +25,4 @@ public class Elephant extends BigGame {
 		return false;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * @see Animal#unloadFrom(Section)
-	 */
-	@Override
-	public Animal unloadFrom(Section s) {
-		// cannot be unloaded, always returns null
-		return null;
-	}
-
 }

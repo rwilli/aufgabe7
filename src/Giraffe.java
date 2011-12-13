@@ -28,15 +28,4 @@ public class Giraffe extends BigGame {
 		return false;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see Animal#unloadFrom(Section)
-	 */
-	@Override
-	public Animal unloadFrom(Section s) {
-		// animal cannot be unloaded, always returns null
-		return null;
-	}
-
 }

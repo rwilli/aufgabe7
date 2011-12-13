@@ -1,9 +1,9 @@
 /**
- * Class GiantTortoiseTerrarium extends Section
+ * Class GiantTortoiseTerrarium extends Terrarium
  * 
  * @author Gruppe222
  */
-public class GiantTortoiseTerrarium extends Section {
+public class GiantTortoiseTerrarium extends Terrarium {
 
 	/**
 	 * load Mamba is not possible
@@ -15,7 +15,6 @@ public class GiantTortoiseTerrarium extends Section {
 
 	public boolean load(Phyton p) {
 		return false;
-
 	}
 
 	public boolean load(DwarfTortoise d) {
@@ -30,56 +29,15 @@ public class GiantTortoiseTerrarium extends Section {
 		return true;
 	}
 
-	public boolean load(Seal s) {
-
-		return false;
-	}
-
-	public boolean load(Dolphin d) {
-
-		return false;
-	}
-
-	public boolean load(Swordfish s) {
-
-		return false;
-	}
-
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see Section#unload()
+	 */
 	@Override
-	public Animal unload(Mamba m) {
-		return null;
-	}
-
-	@Override
-	public Animal unload(Phyton p) {
-		return null;
-	}
-
-	@Override
-	public Animal unload(DwarfTortoise d) {
+	public Animal unload() {
+		Animal a = this.animal;
 		this.animal = null;
-		return d;
+		return a;
 	}
-
-	@Override
-	public Animal unload(GiantTortoise g) {
-		this.animal = null;
-		return g;
-	}
-
-	@Override
-	public Animal unload(Seal s) {
-		return null;
-	}
-
-	@Override
-	public Animal unload(Dolphin d) {
-		return null;
-	}
-
-	@Override
-	public Animal unload(Swordfish s) {
-		return null;
-	}
-
 }

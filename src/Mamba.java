@@ -24,15 +24,4 @@ public class Mamba extends Reptile {
 	public boolean loadTo(Section s) {
 		return s.load(this);
 	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see Animal#unloadFrom(Section)
-	 */
-	@Override
-	public Animal unloadFrom(Section s) {
-		s.unload(this);
-		return this;
-	}
 }

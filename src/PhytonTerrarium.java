@@ -1,10 +1,10 @@
 /**
- * Class PythonTerrarium extends Section
+ * Class PythonTerrarium extends Terrarium
  * 
  * @author Gruppe222
  * 
  */
-public class PhytonTerrarium extends Section {
+public class PhytonTerrarium extends Terrarium {
 
 	public boolean load(Mamba m) {
 		this.animal = m;
@@ -26,96 +26,16 @@ public class PhytonTerrarium extends Section {
 		return false;
 	}
 
-	public boolean load(Seal s) {
-
-		return false;
-	}
-
-	public boolean load(Dolphin d) {
-
-		return false;
-	}
-
-	public boolean load(Swordfish s) {
-
-		return false;
-	}
-
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see Section#unload(Mamba)
+	 * @see Section#unload()
 	 */
 	@Override
-	public Animal unload(Mamba m) {
+	public Animal unload() {
+		Animal a = this.animal;
 		this.animal = null;
-		return m;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see Section#unload(Phyton)
-	 */
-	@Override
-	public Animal unload(Phyton p) {
-		this.animal = null;
-		return p;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see Section#unload(DwarfTortoise)
-	 */
-	@Override
-	public Animal unload(DwarfTortoise d) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see Section#unload(GiantTortoise)
-	 */
-	@Override
-	public Animal unload(GiantTortoise g) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see Section#unload(Seal)
-	 */
-	@Override
-	public Animal unload(Seal s) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see Section#unload(Dolphin)
-	 */
-	@Override
-	public Animal unload(Dolphin d) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see Section#unload(Swordfish)
-	 */
-	@Override
-	public Animal unload(Swordfish s) {
-		// TODO Auto-generated method stub
-		return null;
+		return a;
 	}
 
 }

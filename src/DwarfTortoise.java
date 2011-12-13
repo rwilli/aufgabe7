@@ -14,10 +14,4 @@ public class DwarfTortoise extends Reptile {
 	public boolean loadTo(Section s) {
 		return s.load(this);
 	}
-
-	@Override
-	public Animal unloadFrom(Section s) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }
