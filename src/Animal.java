@@ -27,4 +27,9 @@ public abstract class Animal {
 	 */
 	public abstract boolean loadTo(Section s);
 
+	@Override
+	public String toString() {
+		return "name=" + name ;
+	}
+
 }

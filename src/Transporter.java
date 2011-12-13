@@ -86,5 +86,20 @@ public class Transporter {
 	public boolean load(Trailer t, int c) {
 		return lstTrailerCouplings.get(c).load(t);
 	}
+	
+	/**
+	 * Unloads an Animale in this Transporter or trailer and returns a reference to it
+	 * @param s
+	 * @return Animal
+	 */
+	public Animal unload(int s){
+		return lstSections.get(s).unload();
+		
+	}
+	
+	public Transporter unload(){
+		//????????
+		return null;
+	}
 
 }
