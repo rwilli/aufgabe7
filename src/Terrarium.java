@@ -1,4 +1,5 @@
 /**
+ * Abstract class Terrarium extends Section
  * 
  * @author Gruppe222
  * 
