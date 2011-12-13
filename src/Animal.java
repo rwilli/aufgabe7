@@ -1,5 +1,5 @@
 /**
- * Abstract animal class
+ * Abstract class Animal
  * 
  * @author Gruppe222
  */

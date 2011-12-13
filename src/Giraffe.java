@@ -16,16 +16,4 @@ public class Giraffe extends BigGame {
 		super(name);
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see Animal#loadTo(Section)
-	 */
-	@Override
-	public boolean loadTo(Section s) {
-
-		// cannot be loaded, always returns false.
-		return false;
-	}
-
 }

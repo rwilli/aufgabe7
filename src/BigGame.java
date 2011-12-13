@@ -15,5 +15,16 @@ public abstract class BigGame extends Animal {
 		super(name);
 	}
 
-	
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see Animal#loadTo(Section)
+	 */
+	@Override
+	public boolean loadTo(Section s) {
+
+		// cannot be loaded, always returns false.
+		return false;
+	}
+
 }
