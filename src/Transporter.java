@@ -24,6 +24,7 @@ public class Transporter {
 
 		// On the first two couplings are BigGames
 		BigGame tmp = new Giraffe("Giraffe at "+ id);
+
 		this.lstTrailerCouplings.get(1).load(tmp);
 		tmp = new Elephant("Elephant at "+ id);
 
@@ -34,7 +35,6 @@ public class Transporter {
 
 		Iterator<Section> iter = lstSections.iterator();
 		System.out.println("Transporter: " + id);
-
 	
 		while(iter.hasNext()){
 			Section tmp = iter.next();
@@ -43,6 +43,7 @@ public class Transporter {
 			
 
 		}
+
 		Iterator<TrailerCoupling> iter2 = lstTrailerCouplings.iterator();
 
 		// Add all BigGame Animals also to the list
@@ -52,6 +53,7 @@ public class Transporter {
 
 			if (tmp2.bigGame != null)
 				System.out.println("\t" + tmp2.bigGame.name);
+
 		}
 
 		// now List all other Trailers
@@ -59,10 +61,12 @@ public class Transporter {
 
 		while (iter3.hasNext()) {
 
+
 			TrailerCoupling tmp3 = iter3.next();
 
 			if (tmp3.trailer != null)
 				tmp3.trailer.list();
+
 		}
 
 	}
