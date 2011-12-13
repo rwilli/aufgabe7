@@ -5,5 +5,7 @@ public abstract class Animal {
 	public Animal(String name) {
 		this.name = name;
 	}
+	
+	public abstract boolean loadTo(Section s);
 
 }

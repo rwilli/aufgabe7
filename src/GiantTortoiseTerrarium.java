@@ -1,22 +1,23 @@
 
-public class MambaTerrarium extends Section{
-	
-	
+public class GiantTortoiseTerrarium extends Section {
+
+
 	public boolean load(Mamba m){
-		this.animal = m;
-		return true;
+		return false;
+
 	}
 	public boolean load(Phyton p){
-	
 		return false;
+
 	}
 	public boolean load(DwarfTortoise d){
 		
-		return false;
+		this.animal = d;
+		return true;
 	}
 	public boolean load(GiantTortoise g){
-		
-		return false;
+		this.animal = g;
+		return true;
 	}
 	public boolean load(Seal s){
 		
@@ -30,4 +31,6 @@ public class MambaTerrarium extends Section{
 		
 		return false;
 	}
+
+
 }

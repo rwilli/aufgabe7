@@ -1,7 +1,7 @@
 
-public class Mamba extends Animal {
+public class Phyton extends Animal {
 
-	public Mamba(String name) {
+	public Phyton(String name) {
 		super(name);
 		// TODO Auto-generated constructor stub
 	}

@@ -1,7 +1,8 @@
 
-public class Mamba extends Animal {
+public class Dolphin extends Animal {
 
-	public Mamba(String name) {
+	
+	public Dolphin(String name) {
 		super(name);
 		// TODO Auto-generated constructor stub
 	}
@@ -9,4 +10,6 @@ public class Mamba extends Animal {
 	public boolean loadTo(Section s){
 		return s.load(this);
 	}
+
+	
 }

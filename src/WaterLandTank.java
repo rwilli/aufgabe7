@@ -1,26 +1,27 @@
 
-public class MambaTerrarium extends Section{
-	
-	
+public class WaterLandTank extends Section {
+
+
 	public boolean load(Mamba m){
-		this.animal = m;
-		return true;
+		return false;
+
 	}
 	public boolean load(Phyton p){
-	
 		return false;
+
 	}
 	public boolean load(DwarfTortoise d){
 		
 		return false;
+
 	}
 	public boolean load(GiantTortoise g){
 		
 		return false;
 	}
 	public boolean load(Seal s){
-		
-		return false;
+		this.animal = s;
+		return true;
 	}
 	public boolean load(Dolphin d){
 		
@@ -30,4 +31,7 @@ public class MambaTerrarium extends Section{
 		
 		return false;
 	}
+
+
+
 }
