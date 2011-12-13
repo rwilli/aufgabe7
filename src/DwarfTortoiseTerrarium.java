@@ -15,7 +15,7 @@ public class DwarfTortoiseTerrarium extends Terrarium {
 	public boolean load(DwarfTortoise d) {
 
 		if (this.animal != null) {
-			System.out.println("DwarfTortoiseTerrarium is already full");
+			System.out.println("Dwarf Tortoise Terrarium is already full");
 			return false;
 		}
 		this.animal = d;

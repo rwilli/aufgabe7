@@ -13,6 +13,12 @@ public class PythonTerrarium extends Terrarium {
 	 */
 	@Override
 	public boolean load(Mamba m) {
+
+		if (this.animal != null) {
+			System.out.println("Python Terrarium is already full");
+			return false;
+		}
+
 		this.animal = m;
 		return true;
 	}
@@ -24,6 +30,12 @@ public class PythonTerrarium extends Terrarium {
 	 */
 	@Override
 	public boolean load(Python p) {
+
+		if (this.animal != null) {
+			System.out.println("Python Terrarium is already full");
+			return false;
+		}
+
 		this.animal = p;
 		return true;
 	}
