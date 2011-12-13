@@ -27,4 +27,13 @@ public abstract class Animal {
 	 */
 	public abstract boolean loadTo(Section s);
 
+	/**
+	 * This method should be implemented by subtypes
+	 * 
+	 * @param s
+	 *            the section to unload from
+	 * @return a reference on the unloaded Animal
+	 */
+	public abstract Animal unloadFrom(Section s);
+
 }

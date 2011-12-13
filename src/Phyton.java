@@ -1,12 +1,38 @@
-
+/**
+ * Class Python extends Reptiles
+ * 
+ * @author Gruppe222
+ */
 public class Phyton extends Reptile {
 
+	/**
+	 * Standard constructor calls the super constructor
+	 * 
+	 * @param name
+	 *            the name of the python
+	 */
 	public Phyton(String name) {
 		super(name);
-		// TODO Auto-generated constructor stub
 	}
 
-	public boolean loadTo(Section s){
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see Animal#unloadFrom(Section)
+	 */
+	@Override
+	public boolean loadTo(Section s) {
 		return s.load(this);
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see Animal#unloadFrom(Section)
+	 */
+	@Override
+	public Animal unloadFrom(Section s) {
+		s.unload(this);
+		return this;
 	}
 }
