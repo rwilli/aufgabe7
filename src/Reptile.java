@@ -7,7 +7,7 @@
 public abstract class Reptile extends Animal {
 
 	/**
-	 * Standard constructor calls the super constructors
+	 * Constructor calls the super constructors
 	 * 
 	 * @param name
 	 *            the name of the reptile
