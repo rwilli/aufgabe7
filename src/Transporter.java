@@ -24,18 +24,16 @@ public class Transporter {
 
 		// On the first two couplings are BigGames
 		BigGame tmp = new Giraffe("Giraffe at "+ id);
-
-
-		this.lstTrailerCouplings.get(1).load(tmp);
+		this.lstTrailerCouplings.get(0).load(tmp);
 		tmp = new Elephant("Elephant at "+ id);
-
+		this.lstTrailerCouplings.get(1).load(tmp);
 
 	}
 
 	public void list() {
 
 		Iterator<Section> iter = lstSections.iterator();
-		System.out.println("Transporter: " + id);
+		System.out.println(this);
 	
 		while(iter.hasNext()){
 			Section tmp = iter.next();
@@ -73,6 +71,11 @@ public class Transporter {
 
 		}
 
+	}
+
+	@Override
+	public String toString() {
+		return "Transporter [id=" + id + "]";
 	}
 
 	public boolean load(Animal a, int n) {

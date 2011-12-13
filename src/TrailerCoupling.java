@@ -8,10 +8,12 @@ public class TrailerCoupling {
 	
 	TrailerCoupling(int id){
 		this.id = id;
+		bigGame = null;
+		trailer = null;
 	}
 	
 	public boolean load(Trailer t){
-		if(bigGame != null || trailer != null)
+		if(this.bigGame != null || this.trailer != null)
 			return false;
 		else{
 		this.trailer = t;
@@ -19,13 +21,12 @@ public class TrailerCoupling {
 		}
 	}
 	public boolean load(BigGame bigGame){
-		
-		if(bigGame != null || trailer != null )
-			return false;
-		else{
-		this.bigGame = bigGame;
-		return true;
+		if(this.bigGame == null && this.trailer == null ){
+			this.bigGame = bigGame;
+			return true;
 		}
+		else
+			return false;
 	}
 
 }
