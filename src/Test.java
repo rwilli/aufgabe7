@@ -18,11 +18,11 @@ public class Test {
 		
 		Animal dolphin = new Dolphin("Dolphin1");
 		Animal seal = new Seal("Seal1");
-		Animal dwarf = new DwarfTortoise("Dwarfl1");
+		Animal dwarf = new DwarfTortoise("Dwarf1");
 		Animal giant = new GiantTortoise("Giant1");
 		Animal mamba = new Mamba("Mamba1");
-		Animal python = new Python("phyton1");
-		Animal swordfish = new Swordfish("swordfisch1");
+		Animal python = new Python("Python1");
+		Animal swordfish = new Swordfish("Swordfisch1");
 		
 		
 		/*
@@ -30,7 +30,7 @@ public class Test {
 		 * Our transporter and trailers have fix numbers of sections
 		 * Section1 is a WaterTank
 		 * Section2 is a WaterLandTank
-		 * Section3 is a PhytonTerrarium
+		 * Section3 is a PythonTerrarium
 		 * Section4 is a MambaTerrarium
 		 * Section5 is a GiantTortoiseTerrarium
 		 * Section6 is a DwarfTortoiseTerrarium
@@ -81,7 +81,7 @@ public class Test {
 		tmp = new Mamba("Mamba4");
 		
 		// This Terrarium is already full
-		System.out.println(" Try to add anotherone to PythonTerrarium " );
+		System.out.println(" Try to add another one to PythonTerrarium " );
 		trans1.load(tmp, 2);
 
 		trans1.list();

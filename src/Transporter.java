@@ -100,7 +100,7 @@ public class Transporter {
 	}
 	
 	/**
-	 * Unloads an Animale in this Transporter or trailer and returns a reference to it
+	 * Unloads an Animal in this Transporter or trailer and returns a reference to it
 	 * @param s
 	 * @return Animal
 	 */

@@ -4,20 +4,26 @@
  * @author Gruppe222
  * 
  */
-public class Trailer extends  Transporter {
+public class Trailer extends Transporter {
 
 	/**
-	 * Every Trailer has also his unique Id
+	 * Every Trailer has also his unique ID.
+	 * 
 	 * @param id
+	 *            the ID as Integer
 	 */
-	Trailer(int id ){
+	Trailer(int id) {
 		super(id);
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see Transporter#toString()
+	 */
 	@Override
 	public String toString() {
 		return "Trailer [id=" + id + "]";
 	}
-	
 
 }
