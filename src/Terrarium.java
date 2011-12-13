@@ -29,7 +29,7 @@ public abstract class Terrarium extends Section {
 	 * @see Section#load(Mamba)
 	 */
 	@Override
-	public boolean load(Phyton p) {
+	public boolean load(Python p) {
 
 		return false;
 	}

@@ -32,7 +32,7 @@ public abstract class Section {
 	 *            the Python
 	 * @return true or false depending on successful/unsuccessful load.
 	 */
-	public abstract boolean load(Phyton p);
+	public abstract boolean load(Python p);
 
 	/**
 	 * loads a DwarfTortoise into the section.

@@ -6,7 +6,7 @@
 public class Elephant extends BigGame {
 
 	/**
-	 * Standard constructor
+	 * Constructor calls the super constructor
 	 * 
 	 * @param name
 	 *            of the elephant
