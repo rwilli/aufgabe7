@@ -13,6 +13,12 @@ public class WaterLandTank extends Tank {
 	 */
 	@Override
 	public boolean load(Seal s) {
+
+		if (this.animal != null) {
+			System.out.println("Water/Land Tank is already full");
+			return false;
+		}
+
 		this.animal = s;
 		return true;
 	}
@@ -25,6 +31,11 @@ public class WaterLandTank extends Tank {
 	@Override
 	public boolean load(Dolphin d) {
 
+		if (this.animal != null) {
+			System.out.println("Water/Land Tank is already full");
+			return false;
+		}
+
 		this.animal = d;
 		return true;
 	}
@@ -36,6 +47,11 @@ public class WaterLandTank extends Tank {
 	 */
 	@Override
 	public boolean load(Swordfish s) {
+
+		if (this.animal != null) {
+			System.out.println("Water/Land Tank is already full");
+			return false;
+		}
 
 		this.animal = s;
 		return true;
