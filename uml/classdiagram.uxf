@@ -4,7 +4,7 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>588</x>
+      <x>469</x>
       <y>105</y>
       <w>147</w>
       <h>112</h>
@@ -20,7 +20,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>567</x>
+      <x>448</x>
       <y>7</y>
       <w>147</w>
       <h>35</h>
@@ -33,7 +33,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>644</x>
+      <x>525</x>
       <y>21</y>
       <w>34</w>
       <h>97</h>
@@ -44,7 +44,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>168</x>
+      <x>49</x>
       <y>133</y>
       <w>175</w>
       <h>98</h>
@@ -67,7 +67,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>833</x>
+      <x>714</x>
       <y>56</y>
       <w>98</w>
       <h>35</h>
@@ -80,7 +80,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>833</x>
+      <x>714</x>
       <y>7</y>
       <w>98</w>
       <h>35</h>
@@ -93,7 +93,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>693</x>
+      <x>574</x>
       <y>14</y>
       <w>153</w>
       <h>69</h>
@@ -104,7 +104,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>406</x>
+      <x>287</x>
       <y>385</y>
       <w>84</w>
       <h>28</h>
@@ -117,7 +117,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>777</x>
+      <x>658</x>
       <y>385</y>
       <w>98</w>
       <h>28</h>
@@ -130,7 +130,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>525</x>
+      <x>406</x>
       <y>385</y>
       <w>84</w>
       <h>28</h>
@@ -143,7 +143,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>672</x>
+      <x>553</x>
       <y>385</y>
       <w>91</w>
       <h>28</h>
@@ -156,7 +156,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>966</x>
+      <x>847</x>
       <y>301</y>
       <w>98</w>
       <h>28</h>
@@ -169,7 +169,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>693</x>
+      <x>574</x>
       <y>0</y>
       <w>153</w>
       <h>34</h>
@@ -180,7 +180,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>441</x>
+      <x>322</x>
       <y>196</y>
       <w>209</w>
       <h>202</h>
@@ -191,7 +191,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>560</x>
+      <x>441</x>
       <y>196</y>
       <w>111</w>
       <h>202</h>
@@ -202,7 +202,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>651</x>
+      <x>532</x>
       <y>196</y>
       <w>83</w>
       <h>202</h>
@@ -213,7 +213,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>707</x>
+      <x>588</x>
       <y>196</y>
       <w>272</w>
       <h>125</h>
@@ -224,7 +224,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>966</x>
+      <x>847</x>
       <y>245</y>
       <w>98</w>
       <h>28</h>
@@ -237,7 +237,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>966</x>
+      <x>847</x>
       <y>357</y>
       <w>98</w>
       <h>28</h>
@@ -250,7 +250,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>714</x>
+      <x>595</x>
       <y>182</y>
       <w>265</w>
       <h>90</h>
@@ -261,7 +261,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>693</x>
+      <x>574</x>
       <y>196</y>
       <w>286</w>
       <h>181</h>
@@ -272,7 +272,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>672</x>
+      <x>553</x>
       <y>196</y>
       <w>174</w>
       <h>202</h>
@@ -283,7 +283,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>119</x>
+      <x>0</x>
       <y>308</y>
       <w>175</w>
       <h>49</h>
@@ -301,7 +301,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>574</x>
+      <x>455</x>
       <y>462</y>
       <w>84</w>
       <h>35</h>
@@ -319,7 +319,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>448</x>
+      <x>329</x>
       <y>392</y>
       <w>153</w>
       <h>83</h>
@@ -330,7 +330,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>546</x>
+      <x>427</x>
       <y>392</y>
       <w>83</w>
       <h>83</h>
@@ -341,7 +341,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>581</x>
+      <x>462</x>
       <y>476</y>
       <w>55</w>
       <h>237</h>
@@ -352,7 +352,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>798</x>
+      <x>679</x>
       <y>469</y>
       <w>112</w>
       <h>35</h>
@@ -370,7 +370,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>658</x>
+      <x>539</x>
       <y>483</y>
       <w>209</w>
       <h>230</h>
@@ -381,7 +381,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>721</x>
+      <x>602</x>
       <y>392</y>
       <w>118</w>
       <h>90</h>
@@ -392,7 +392,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>826</x>
+      <x>707</x>
       <y>392</y>
       <w>48</w>
       <h>90</h>
@@ -403,7 +403,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>1211</x>
+      <x>1092</x>
       <y>441</y>
       <w>91</w>
       <h>28</h>
@@ -416,7 +416,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>1197</x>
+      <x>1078</x>
       <y>357</y>
       <w>91</w>
       <h>28</h>
@@ -429,7 +429,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1043</x>
+      <x>924</x>
       <y>245</y>
       <w>209</w>
       <h>125</h>
@@ -440,7 +440,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>707</x>
+      <x>588</x>
       <y>434</y>
       <w>517</w>
       <h>307</h>
@@ -451,7 +451,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>700</x>
+      <x>581</x>
       <y>350</y>
       <w>510</w>
       <h>363</h>
@@ -462,7 +462,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1043</x>
+      <x>924</x>
       <y>343</y>
       <w>167</w>
       <h>41</h>
@@ -473,7 +473,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1029</x>
+      <x>910</x>
       <y>364</y>
       <w>195</w>
       <h>97</h>
@@ -484,7 +484,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1043</x>
+      <x>924</x>
       <y>308</y>
       <w>188</w>
       <h>146</h>
@@ -495,7 +495,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1043</x>
+      <x>924</x>
       <y>294</y>
       <w>181</w>
       <h>76</h>
@@ -506,7 +506,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>322</x>
+      <x>203</x>
       <y>14</y>
       <w>258</w>
       <h>160</h>
@@ -517,7 +517,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>266</x>
+      <x>147</x>
       <y>210</y>
       <w>258</w>
       <h>517</h>
@@ -528,7 +528,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>196</x>
+      <x>77</x>
       <y>210</y>
       <w>34</w>
       <h>111</h>
@@ -539,7 +539,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>189</x>
+      <x>70</x>
       <y>336</y>
       <w>335</w>
       <h>426</h>
@@ -550,7 +550,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>707</x>
+      <x>588</x>
       <y>392</y>
       <w>48</w>
       <h>90</h>
@@ -561,7 +561,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>609</x>
+      <x>490</x>
       <y>483</y>
       <w>118</w>
       <h>230</h>
@@ -572,7 +572,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>672</x>
+      <x>553</x>
       <y>469</y>
       <w>105</w>
       <h>35</h>
@@ -590,7 +590,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>427</x>
+      <x>308</x>
       <y>392</y>
       <w>97</w>
       <h>125</h>
@@ -601,7 +601,7 @@ Animal
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>504</x>
+      <x>385</x>
       <y>518</y>
       <w>83</w>
       <h>195</h>
@@ -612,7 +612,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>483</x>
+      <x>364</x>
       <y>504</y>
       <w>84</w>
       <h>35</h>
@@ -630,7 +630,7 @@ Animal
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>511</x>
+      <x>392</x>
       <y>700</y>
       <w>217</w>
       <h>70</h>

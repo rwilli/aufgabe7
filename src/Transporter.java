@@ -61,8 +61,12 @@ public class Transporter {
 		
 	}
 	
+	public boolean load(Animal a, int n){
+		
+		return a.loadTo(lstSections.get(n));
+	}
 	public boolean load(Trailer t, int c) {
-		this.lstTrailerCouplings.get(c).add(t);
+		return lstTrailerCouplings.get(c).load(t);
 	}
 	
 }
