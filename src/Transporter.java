@@ -25,6 +25,7 @@ public class Transporter {
 		// On the first two couplings are BigGames
 		BigGame tmp = new Giraffe("Giraffe at "+ id);
 
+
 		this.lstTrailerCouplings.get(1).load(tmp);
 		tmp = new Elephant("Elephant at "+ id);
 
@@ -55,6 +56,7 @@ public class Transporter {
 				System.out.println("\t" + tmp2.bigGame.name);
 
 
+
 		}
 
 		// now List all other Trailers
@@ -67,6 +69,7 @@ public class Transporter {
 
 			if (tmp3.trailer != null)
 				tmp3.trailer.list();
+
 
 		}
 
