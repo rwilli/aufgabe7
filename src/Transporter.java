@@ -23,6 +23,9 @@ public class Transporter {
 		this.lstTrailerCouplings.add(new TrailerCoupling(1));
 		this.lstTrailerCouplings.add(new TrailerCoupling(2));
 		this.lstTrailerCouplings.add(new TrailerCoupling(3));
+		
+		Animal tmp = new Giraffe("Giraffe an "+ id);
+		this.lstTrailerCouplings.get(1).load(tmp);
 	}
 
 	public void list() {
@@ -67,6 +70,6 @@ public class Transporter {
 	}
 	public boolean load(Trailer t, int c) {
 		return lstTrailerCouplings.get(c).load(t);
-	}
+	}	
 	
 }

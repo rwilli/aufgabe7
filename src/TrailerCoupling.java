@@ -19,6 +19,7 @@ public class TrailerCoupling {
 		}
 	}
 	public boolean load(BigGame bigGame){
+		
 		if(bigGame != null || trailer != null )
 			return false;
 		else{
