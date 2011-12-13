@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 public class Transporter {
 	final private LinkedList<Section> lstSections;
-	final private LinkedList<TrailerCoupling> lstTraileCouplings;
+	final private LinkedList<TrailerCoupling> lstTrailerCouplings;
 	final int id;
 	
 	public Transporter(int id) {
@@ -19,24 +19,50 @@ public class Transporter {
 		this.lstSections.add(new DwarfTortoiseTerrarium());
 		//this.lstSections.add(new TrailerCoupling());
 		//this.lstSections.add(new DwarfTortoiseTerrarium());
-
+		this.lstTrailerCouplings = new LinkedList<TrailerCoupling>();
+		this.lstTrailerCouplings.add(new TrailerCoupling(1));
+		this.lstTrailerCouplings.add(new TrailerCoupling(2));
+		this.lstTrailerCouplings.add(new TrailerCoupling(3));
 	}
 
 	public void list() {
 		
-		Iterator<Section> iterator = lstSections.iterator();
+		Iterator<Section> iter = lstSections.iterator();
 		System.out.println("Transporter: " + id);
-		while(iterator.hasNext()){
+		while(iter.hasNext()){
 			
-			if(iterator.next().animal != null )
-				System.out.println("\t"+ iterator.next().animal.name);
+			if(iter.next().animal != null )
+				System.out.println("\t"+ iter.next().animal.name);
 			
+		}
+		
+		Iterator<TrailerCoupling> iter2 = lstTrailerCouplings.iterator();
+		
+		
+		// Add all BigGame Animals also to the list
+		while(iter2.hasNext()){
+			
+			TrailerCoupling tmp = iter2.next();
+			
+			if(tmp.bigGame != null)
+				System.out.println("\t"+ tmp.bigGame.name);
+		}
+		
+		//now List all other Trailers
+		Iterator<TrailerCoupling> iter3 = lstTrailerCouplings.iterator();
+		
+		while(iter3.hasNext()){
+			
+			TrailerCoupling tmp = iter3.next();
+			
+			if(tmp.trailer != null )
+				tmp.trailer.list();
 		}
 		
 	}
 	
-	public boolean load(Trailer t) {
-		return true;
+	public boolean load(Trailer t, int c) {
+		this.lstTrailerCouplings.get(c).add(t);
 	}
 	
 }

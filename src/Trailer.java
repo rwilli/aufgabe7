@@ -1,20 +1,10 @@
 
-public class Trailer {
+public class Trailer extends  Transporter {
 
-	public void load(MambaTerrarium mt) {
-		
+	
+	Trailer(int id ){
+		super(id);
 	}
 	
-	public void load(PhytonTerrarium pt) {
-		
-	}
-	
-	public void load(GiantTortoiseTerrarium gt) {
-		
-	}
-	
-	public void load(DwarfTortoiseTerrarium dt) {
-		
-	}
-	
+
 }
