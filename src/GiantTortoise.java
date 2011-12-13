@@ -7,7 +7,7 @@
 public class GiantTortoise extends Reptile {
 
 	/**
-	 * Standard constructor calls the super constructor
+	 * Constructor calls the super constructor
 	 * 
 	 * @param name
 	 *            the name of the GiantTortoise

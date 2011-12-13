@@ -4,7 +4,7 @@
  * @author Gruppe222
  * 
  */
-public class PhytonTerrarium extends Terrarium {
+public class PythonTerrarium extends Terrarium {
 
 	/*
 	 * (non-Javadoc)
@@ -23,7 +23,7 @@ public class PhytonTerrarium extends Terrarium {
 	 * @see Terrarium#load(Mamba)
 	 */
 	@Override
-	public boolean load(Phyton p) {
+	public boolean load(Python p) {
 		this.animal = p;
 		return true;
 	}

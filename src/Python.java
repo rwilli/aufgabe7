@@ -3,7 +3,7 @@
  * 
  * @author Gruppe222
  */
-public class Phyton extends Reptile {
+public class Python extends Reptile {
 
 	/**
 	 * Standard constructor calls the super constructor
@@ -11,7 +11,7 @@ public class Phyton extends Reptile {
 	 * @param name
 	 *            the name of the python
 	 */
-	public Phyton(String name) {
+	public Python(String name) {
 		super(name);
 	}
 

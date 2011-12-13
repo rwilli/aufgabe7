@@ -21,7 +21,7 @@ public class Test {
 		Animal dwarf = new DwarfTortoise("Dwarfl1");
 		Animal giant = new GiantTortoise("Giant1");
 		Animal mamba = new Mamba("Mamba");
-		Animal phyton = new Phyton("phyton1");
+		Animal phyton = new Python("phyton1");
 		Animal swordfish = new Swordfish("swordfisch1");
 		
 		

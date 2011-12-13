@@ -60,7 +60,7 @@ public abstract class Tank extends Section {
 	 * @see Section#load(Seal)
 	 */
 	@Override
-	public boolean load(Phyton p) {
+	public boolean load(Python p) {
 		return false;
 	}
 

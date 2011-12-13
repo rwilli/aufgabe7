@@ -6,23 +6,13 @@
 public class Elephant extends BigGame {
 
 	/**
-	 * Standard constructor
+	 * Constructor calls the super constructor
 	 * 
 	 * @param name
 	 *            of the elephant
 	 */
 	public Elephant(String name) {
 		super(name);
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * @see Animal#loadTo(Section)
-	 */
-	@Override
-	public boolean loadTo(Section s) {
-		// cannot be loaded, always returns false
-		return false;
 	}
 
 }

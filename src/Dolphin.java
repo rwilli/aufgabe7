@@ -7,7 +7,7 @@
 public class Dolphin extends MarineLife {
 
 	/**
-	 * Standard constructor
+	 * Constructor calls the super constructor
 	 * 
 	 * @param name
 	 *            the name of the dolphin
