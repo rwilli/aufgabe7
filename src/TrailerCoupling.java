@@ -15,7 +15,7 @@ public class TrailerCoupling {
 	 * only one of them can hold a reference
 	 * @param id
 	 */
-	
+	// id > 0 and unique
 	TrailerCoupling(int id){
 		this.id = id;
 		bigGame = null;
@@ -28,6 +28,7 @@ public class TrailerCoupling {
 	 * @param t
 	 * @return boolean
 	 */
+	// this.bigGame == null && this.trailer == null
 	public boolean load(Trailer t){
 		if(this.bigGame != null || this.trailer != null)
 			return false;
@@ -42,6 +43,7 @@ public class TrailerCoupling {
 	 * @param biggame
 	 * @return boolean
 	 */
+	// this.bigGame == null and this.trailer == null
 	public boolean load(BigGame bigGame){
 		if(this.bigGame == null && this.trailer == null ){
 			this.bigGame = bigGame;

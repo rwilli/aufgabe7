@@ -12,6 +12,7 @@ public class Trailer extends Transporter {
 	 * @param id
 	 *            the ID as Integer
 	 */
+	// id > 0 and unique
 	Trailer(int id) {
 		super(id);
 	}

@@ -61,6 +61,7 @@ public abstract class Terrarium extends Section {
 	 * 
 	 * @see Section#load(Mamba)
 	 */
+	// always returns false
 	@Override
 	public boolean load(Seal s) {
 
@@ -72,6 +73,7 @@ public abstract class Terrarium extends Section {
 	 * 
 	 * @see Section#load(Mamba)
 	 */
+	// always returns false
 	@Override
 	public boolean load(Dolphin d) {
 
@@ -83,6 +85,7 @@ public abstract class Terrarium extends Section {
 	 * 
 	 * @see Section#load(Mamba)
 	 */
+	// always returns false
 	@Override
 	public boolean load(Swordfish s) {
 

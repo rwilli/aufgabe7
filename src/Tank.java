@@ -49,6 +49,7 @@ public abstract class Tank extends Section {
 	 * 
 	 * @see Section#load(Seal)
 	 */
+	// always returns false
 	@Override
 	public boolean load(Mamba m) {
 		return false;
@@ -59,6 +60,7 @@ public abstract class Tank extends Section {
 	 * 
 	 * @see Section#load(Seal)
 	 */
+	// always returns false
 	@Override
 	public boolean load(Python p) {
 		return false;
@@ -69,6 +71,7 @@ public abstract class Tank extends Section {
 	 * 
 	 * @see Section#load(Seal)
 	 */
+	// always returns false
 	@Override
 	public boolean load(DwarfTortoise d) {
 
@@ -80,6 +83,7 @@ public abstract class Tank extends Section {
 	 * 
 	 * @see Section#load(Seal)
 	 */
+	// always returns false
 	@Override
 	public boolean load(GiantTortoise g) {
 

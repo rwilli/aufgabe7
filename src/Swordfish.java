@@ -12,6 +12,7 @@ public class Swordfish extends MarineLife {
 	 * @param name
 	 *            the name of the swordfish
 	 */
+	// name != ""
 	public Swordfish(String name) {
 		super(name);
 	}
@@ -21,6 +22,7 @@ public class Swordfish extends MarineLife {
 	 * 
 	 * @see Animal#unloadFrom(Section)
 	 */
+	// s != null
 	@Override
 	public boolean loadTo(Section s) {
 		return s.load(this);
