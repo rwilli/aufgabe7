@@ -11,6 +11,7 @@ public class Python extends Reptile {
 	 * @param name
 	 *            the name of the python
 	 */
+	// name != ""
 	public Python(String name) {
 		super(name);
 	}
@@ -20,6 +21,7 @@ public class Python extends Reptile {
 	 * 
 	 * @see Animal#unloadFrom(Section)
 	 */
+	// s != null
 	@Override
 	public boolean loadTo(Section s) {
 		return s.load(this);

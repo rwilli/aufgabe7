@@ -11,6 +11,7 @@ public abstract class MarineLife extends Animal {
 	 * @param name
 	 *            the name as String
 	 */
+	// name != ""
 	public MarineLife(String name) {
 		super(name);
 	}

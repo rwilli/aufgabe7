@@ -12,6 +12,7 @@ public class Giraffe extends BigGame {
 	 * @param name
 	 *            the name of the giraffe
 	 */
+	// name != ""
 	public Giraffe(String name) {
 		super(name);
 	}

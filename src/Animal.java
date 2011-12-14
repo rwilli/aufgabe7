@@ -14,6 +14,7 @@ public abstract class Animal {
 	 * @param name
 	 *            the name of the animal
 	 */
+	// name != ""
 	public Animal(String name) {
 		this.name = name;
 	}
@@ -25,6 +26,7 @@ public abstract class Animal {
 	 *            the section to load to
 	 * @return true or false depending on successful or unsuccessful load
 	 */
+	// s != null
 	public abstract boolean loadTo(Section s);
 
 	@Override

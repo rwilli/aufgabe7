@@ -11,6 +11,7 @@ public class Mamba extends Reptile {
 	 * @param name
 	 *            the name of the mamba
 	 */
+	// name != null
 	public Mamba(String name) {
 		super(name);
 	}
@@ -20,6 +21,7 @@ public class Mamba extends Reptile {
 	 * 
 	 * @see Animal#unloadFrom(Section)
 	 */
+	// s != null
 	@Override
 	public boolean loadTo(Section s) {
 		return s.load(this);

@@ -11,6 +11,7 @@ public class MambaTerrarium extends Terrarium {
 	 * 
 	 * @see Terrarium#load(Mamba)
 	 */
+	// this.animal == null
 	@Override
 	public boolean load(Mamba m) {
 		

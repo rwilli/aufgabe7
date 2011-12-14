@@ -12,6 +12,7 @@ public class Dolphin extends MarineLife {
 	 * @param name
 	 *            the name of the dolphin
 	 */
+	// name != ""
 	public Dolphin(String name) {
 		super(name);
 	}
@@ -21,6 +22,7 @@ public class Dolphin extends MarineLife {
 	 * 
 	 * @see Animal#loadTo(Section)
 	 */
+	// s != null
 	@Override
 	public boolean loadTo(Section s) {
 		return s.load(this);

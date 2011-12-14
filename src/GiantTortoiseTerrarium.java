@@ -10,6 +10,7 @@ public class GiantTortoiseTerrarium extends Terrarium {
 	 * 
 	 * @see Terrarium#load(DwarfTortoise)
 	 */
+	// this.animal == null
 	@Override
 	public boolean load(DwarfTortoise d) {
 
@@ -26,9 +27,15 @@ public class GiantTortoiseTerrarium extends Terrarium {
 	 * 
 	 * @see Terrarium#load(DwarfTortoise)
 	 */
+	// this.animal == null
 	@Override
 	public boolean load(GiantTortoise g) {
 
+		if (this.animal != null) {
+			System.out.println("Giant Tortoise Terrarium is already full");
+			return false;
+		}
+		
 		this.animal = g;
 		return true;
 	}

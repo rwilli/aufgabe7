@@ -12,6 +12,7 @@ public class DwarfTortoise extends Reptile {
 	 * @param name
 	 *            the name of the DwarfTortoise
 	 */
+	// name != null
 	public DwarfTortoise(String name) {
 		super(name);
 	}
@@ -21,6 +22,8 @@ public class DwarfTortoise extends Reptile {
 	 * 
 	 * @see Animal#loadTo(Section)
 	 */
+	
+	// s != null
 	@Override
 	public boolean loadTo(Section s) {
 		return s.load(this);

@@ -12,6 +12,7 @@ public abstract class Reptile extends Animal {
 	 * @param name
 	 *            the name of the reptile
 	 */
+	// name != ""
 	public Reptile(String name) {
 		super(name);
 	}

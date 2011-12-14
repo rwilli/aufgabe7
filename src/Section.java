@@ -12,6 +12,8 @@ public abstract class Section {
 	/**
 	 * Standard constructor, animal is null in the beginning
 	 */
+	// PRE: has to be null
+	// POST: may be any Animal
 	public Section() {
 		this.animal = null;
 	}

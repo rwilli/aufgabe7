@@ -11,6 +11,7 @@ public class Elephant extends BigGame {
 	 * @param name
 	 *            of the elephant
 	 */
+	// name != ""
 	public Elephant(String name) {
 		super(name);
 	}

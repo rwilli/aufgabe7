@@ -11,6 +11,7 @@ public abstract class BigGame extends Animal {
 	 * @param name
 	 *            the name of the BigGame
 	 */
+	// name != ""
 	public BigGame(String name) {
 		super(name);
 	}
@@ -20,6 +21,9 @@ public abstract class BigGame extends Animal {
 	 * 
 	 * @see Animal#loadTo(Section)
 	 */
+
+	// PRE: s != null
+	// POST: always returns false, because BigGame cannot be loaded
 	@Override
 	public boolean loadTo(Section s) {
 

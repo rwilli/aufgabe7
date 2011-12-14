@@ -11,6 +11,7 @@ public class PythonTerrarium extends Terrarium {
 	 * 
 	 * @see Terrarium#load(Mamba)
 	 */
+	// this.animal == null
 	@Override
 	public boolean load(Mamba m) {
 
@@ -28,6 +29,7 @@ public class PythonTerrarium extends Terrarium {
 	 * 
 	 * @see Terrarium#load(Mamba)
 	 */
+	// this.animal == null
 	@Override
 	public boolean load(Python p) {
 

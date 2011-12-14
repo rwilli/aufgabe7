@@ -12,6 +12,7 @@ public class GiantTortoise extends Reptile {
 	 * @param name
 	 *            the name of the GiantTortoise
 	 */
+	// name != ""
 	public GiantTortoise(String name) {
 		super(name);
 	}
@@ -21,6 +22,7 @@ public class GiantTortoise extends Reptile {
 	 * 
 	 * @see Animal#unloadFrom(Section)
 	 */
+	// s != null
 	@Override
 	public boolean loadTo(Section s) {
 		return s.load(this);
