@@ -11,7 +11,8 @@ public class WaterLandTank extends Tank {
 	 * 
 	 * @see Tank#load(Seal)
 	 */
-	// this.animal == null
+	// PRE: this.animal == null
+	// POST: this.animal == s
 	@Override
 	public boolean load(Seal s) {
 
@@ -29,7 +30,8 @@ public class WaterLandTank extends Tank {
 	 * 
 	 * @see Tank#load(Seal)
 	 */
-	// this.animal == null
+	// PRE: this.animal == null
+	// POST: this.animal == d
 	@Override
 	public boolean load(Dolphin d) {
 
@@ -47,7 +49,8 @@ public class WaterLandTank extends Tank {
 	 * 
 	 * @see Tank#load(Seal)
 	 */
-	// this.animal == null
+	// PRE: this.animal == null
+	// POST: this.animal == s
 	@Override
 	public boolean load(Swordfish s) {
 

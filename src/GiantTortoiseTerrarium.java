@@ -10,7 +10,8 @@ public class GiantTortoiseTerrarium extends Terrarium {
 	 * 
 	 * @see Terrarium#load(DwarfTortoise)
 	 */
-	// this.animal == null
+	// PRE: this.animal == null
+	// POST: this.animal == d
 	@Override
 	public boolean load(DwarfTortoise d) {
 
@@ -27,7 +28,8 @@ public class GiantTortoiseTerrarium extends Terrarium {
 	 * 
 	 * @see Terrarium#load(DwarfTortoise)
 	 */
-	// this.animal == null
+	// PRE: this.animal == null
+	// POST: this.animal == g
 	@Override
 	public boolean load(GiantTortoise g) {
 
