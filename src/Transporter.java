@@ -23,9 +23,9 @@ public class Transporter {
 		this.lstTrailerCouplings.add(new TrailerCoupling(3));
 
 		// On the first two couplings are BigGames
-		BigGame tmp = new Giraffe("Giraffe at "+ id);
+		BigGame tmp = new Giraffe("Giraffe at " + id);
 		this.lstTrailerCouplings.get(0).load(tmp);
-		tmp = new Elephant("Elephant at "+ id);
+		tmp = new Elephant("Elephant at " + id);
 		this.lstTrailerCouplings.get(1).load(tmp);
 
 	}
@@ -34,12 +34,11 @@ public class Transporter {
 
 		Iterator<Section> iter = lstSections.iterator();
 		System.out.println(this);
-	
-		while(iter.hasNext()){
+
+		while (iter.hasNext()) {
 			Section tmp = iter.next();
-			if(tmp.animal != null )
-				System.out.println("\t"+ tmp.animal.name);
-			
+			if (tmp.animal != null)
+				System.out.println("\t" + tmp.animal.name);
 
 		}
 
@@ -53,8 +52,6 @@ public class Transporter {
 			if (tmp2.bigGame != null)
 				System.out.println("\t" + tmp2.bigGame.name);
 
-
-
 		}
 
 		// now List all other Trailers
@@ -62,12 +59,10 @@ public class Transporter {
 
 		while (iter3.hasNext()) {
 
-
 			TrailerCoupling tmp3 = iter3.next();
 
 			if (tmp3.trailer != null)
 				tmp3.trailer.list();
-
 
 		}
 
@@ -79,7 +74,8 @@ public class Transporter {
 	}
 
 	/**
-	 * load an animale to a specific section
+	 * load an animal to a specific section
+	 * 
 	 * @param a
 	 * @param n
 	 * @return boolean
@@ -91,6 +87,7 @@ public class Transporter {
 
 	/**
 	 * load a trailer to a specific coupling
+	 * 
 	 * @param t
 	 * @param c
 	 * @return
@@ -98,20 +95,37 @@ public class Transporter {
 	public boolean load(Trailer t, int c) {
 		return lstTrailerCouplings.get(c).load(t);
 	}
-	
+
 	/**
-	 * Unloads an Animal in this Transporter or trailer and returns a reference to it
+	 * Unloads an Animal in this Transporter or trailer and returns a reference
+	 * to it
+	 * 
 	 * @param s
 	 * @return Animal
 	 */
-	public Animal unload(int s){
-		return lstSections.get(s).unload();
-		
-	}
 	
-	public Transporter unload(){
-		//????????
-		return null;
+	// s > 0 
+	public Animal unload(int s) {
+		return lstSections.get(s).unload();
+
+	}
+
+	/**
+	 * Unloads the whole transporter
+	 * 
+	 * @return the unloaded Transporter
+	 */
+	// The number of sections is always 6 and not variable
+	public Transporter unload() {
+
+		lstSections.get(0).unload();
+		lstSections.get(1).unload();
+		lstSections.get(2).unload();
+		lstSections.get(3).unload();
+		lstSections.get(4).unload();
+		lstSections.get(5).unload();
+		
+		return this;
 	}
 
 }

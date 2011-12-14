@@ -90,8 +90,16 @@ public class Test {
 		System.out.println( trans1.unload(0) );
 		System.out.println( trans1.unload(1) );
 		
-		System.out.println("------- After we unloaded the first section of the transporter---------");
+		System.out.println("------- After we unloaded the first and second section of the transporter---------");
 		trans1.list();
+		
+		System.out.println("------- After we unloaded the whole transporter trans1---------");
+		trans1.unload();
+		trans1.list();
+		
+		System.out.println("------- After we unloaded the whole transporter trans2---------");
+		trailer1.unload();
+		trailer1.list();
 		
 	}
 
