@@ -104,7 +104,8 @@ public class Transporter {
 	 * @return Animal
 	 */
 	
-	// s > 0 
+	//  0 <= s <= 5
+	
 	public Animal unload(int s) {
 		return lstSections.get(s).unload();
 

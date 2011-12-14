@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+
 
 /**
  * 
@@ -68,6 +68,8 @@ public class Test {
 		
 		System.out.println(" Add Mamba: " +trailer1.load(mamba, 3) );
 		System.out.println(" Add Python: " +trailer1.load(python, 2) );
+		System.out.println(" Add Dwarf: " +trailer1.load(dwarf, 5) );
+		System.out.println(" Add Swordfish: " +trailer1.load(swordfish, 5) );
 
 		
 		System.out.println("------- After we added more animals to the first Trailer---------");
