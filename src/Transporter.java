@@ -6,6 +6,9 @@ public class Transporter {
 	final private LinkedList<TrailerCoupling> lstTrailerCouplings;
 	final int id;
 
+	// id > 0
+	// number of sections == 6
+	// lstTrailerCouplings.size() == 3
 	public Transporter(int id) {
 		this.id = id;
 		this.lstSections = new LinkedList<Section>();
@@ -30,6 +33,9 @@ public class Transporter {
 
 	}
 
+	/**
+	 * lists all the animals in a Transporter
+	 */
 	public void list() {
 
 		Iterator<Section> iter = lstSections.iterator();
