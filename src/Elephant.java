@@ -16,4 +16,11 @@ public class Elephant extends BigGame {
 		super(name);
 	}
 
+	@Override
+	public boolean loadOnto(Transporter t, Integer section) {
+		// always returns false, this load is impossible
+		return false;
+	}
+
+
 }

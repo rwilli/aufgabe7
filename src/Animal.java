@@ -3,7 +3,7 @@
  * 
  * @author Gruppe222
  */
-public abstract class Animal {
+public abstract class Animal implements Loadable {
 
 	// every animal has a name
 	protected String name;
@@ -27,7 +27,7 @@ public abstract class Animal {
 	 * @return true or false depending on successful or unsuccessful load
 	 */
 	// s != null
-	public abstract boolean loadTo(Section s);
+	public abstract boolean loadOnto(Transporter t, Integer section);
 
 	@Override
 	public String toString() {

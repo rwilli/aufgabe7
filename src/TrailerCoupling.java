@@ -10,6 +10,7 @@ public class TrailerCoupling {
 	BigGame bigGame;
 	Trailer trailer;
 	
+	
 	/**
 	 * Has also a unique Id and a BigGame animal or ah trailer
 	 * only one of them can hold a reference

@@ -4,7 +4,7 @@
  * @author Gruppe222
  * 
  */
-public class Trailer extends Transporter {
+public class Trailer extends Transporter implements Loadable {
 
 	/**
 	 * Every Trailer has also his unique ID.
@@ -26,5 +26,16 @@ public class Trailer extends Transporter {
 	public String toString() {
 		return "Trailer [id=" + id + "]";
 	}
+
+	/*
+	 * (non-Javadoc)
+	 * @see Loadable#loadOnto(Transporter, java.lang.Integer)
+	 */
+	@Override
+	public boolean loadOnto(Transporter t, Integer section) {
+		return t.couplings[2].load(this);	
+	}
+	
+	
 
 }

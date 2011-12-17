@@ -2,34 +2,35 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Transporter {
-	final private LinkedList<Section> lstSections;
-	final private LinkedList<TrailerCoupling> lstTrailerCouplings;
-	final int id;
+	
+	final protected Section[] sections;
+	final protected TrailerCoupling[] couplings;
+	final protected int id;
 
 	// id > 0
 	// number of sections == 6
-	// lstTrailerCouplings.size() == 3
+	// couplings.length == 3
 	public Transporter(int id) {
 		this.id = id;
-		this.lstSections = new LinkedList<Section>();
-		this.lstSections.add(new WaterTank());
-		this.lstSections.add(new WaterLandTank());
-		this.lstSections.add(new PythonTerrarium());
-		this.lstSections.add(new MambaTerrarium());
-		this.lstSections.add(new GiantTortoiseTerrarium());
-		this.lstSections.add(new DwarfTortoiseTerrarium());
-		// this.lstSections.add(new TrailerCoupling());
-		// this.lstSections.add(new DwarfTortoiseTerrarium());
-		this.lstTrailerCouplings = new LinkedList<TrailerCoupling>();
-		this.lstTrailerCouplings.add(new TrailerCoupling(1));
-		this.lstTrailerCouplings.add(new TrailerCoupling(2));
-		this.lstTrailerCouplings.add(new TrailerCoupling(3));
+
+		sections = new Section[6];
+		sections[0] = new WaterTank();
+		sections[1] = new WaterLandTank();
+		sections[2] = new PythonTerrarium();
+		sections[3] = new MambaTerrarium();
+		sections[4] = new GiantTortoiseTerrarium();
+		sections[5] = new DwarfTortoiseTerrarium();
+
+		couplings = new TrailerCoupling[3];
+		couplings[0] = new TrailerCoupling(1);
+		couplings[1] = new TrailerCoupling(2);
+		couplings[2] = new TrailerCoupling(3);
 
 		// On the first two couplings are BigGames
 		BigGame tmp = new Giraffe("Giraffe at " + id);
-		this.lstTrailerCouplings.get(0).load(tmp);
+		couplings[0].load(tmp);
 		tmp = new Elephant("Elephant at " + id);
-		this.lstTrailerCouplings.get(1).load(tmp);
+		couplings[1].load(tmp);
 
 	}
 
@@ -38,45 +39,96 @@ public class Transporter {
 	 */
 	public void list() {
 
-		Iterator<Section> iter = lstSections.iterator();
-		System.out.println(this);
-
-		while (iter.hasNext()) {
-			Section tmp = iter.next();
-			if (tmp.animal != null)
-				System.out.println("\t" + tmp.animal.name);
-
-		}
-
-		Iterator<TrailerCoupling> iter2 = lstTrailerCouplings.iterator();
-
-		// Add all BigGame Animals also to the list
-		while (iter2.hasNext()) {
-
-			TrailerCoupling tmp2 = iter2.next();
-
-			if (tmp2.bigGame != null)
-				System.out.println("\t" + tmp2.bigGame.name);
-
-		}
-
-		// now List all other Trailers
-		Iterator<TrailerCoupling> iter3 = lstTrailerCouplings.iterator();
-
-		while (iter3.hasNext()) {
-
-			TrailerCoupling tmp3 = iter3.next();
-
-			if (tmp3.trailer != null)
-				tmp3.trailer.list();
-
-		}
+		System.out.print(listAnimalsInTransporter());
+		System.out.print(listBigGames());
+		
+		if (couplings[2].trailer != null)
+			System.out.println(listAnimalsInTrailers());
 
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
 	@Override
 	public String toString() {
 		return "Transporter [id=" + id + "]";
+	}
+
+	/**
+	 * Helper method for list print
+	 * 
+	 * @return a String containing all the animals in trailers.
+	 */
+	public String listAnimalsInTrailers() {
+		StringBuilder builder = new StringBuilder();
+
+		if (this.couplings[2].trailer == null) 
+			return builder.toString();
+		
+		if (couplings[2].trailer.sections[0].animal != null)
+			builder.append(couplings[2].trailer.toString() + ": "
+					+ couplings[2].trailer.sections[0].animal + "\n");
+		if (couplings[2].trailer.sections[1].animal != null)
+			builder.append(couplings[2].trailer.toString() + ": "
+					+ couplings[2].trailer.sections[1].animal + "\n");
+		if (couplings[2].trailer.sections[2].animal != null)
+			builder.append(couplings[2].trailer.toString() + ": "
+					+ couplings[2].trailer.sections[2].animal + "\n");
+		if (couplings[2].trailer.sections[3].animal != null)
+			builder.append(couplings[2].trailer.toString() + ": "
+					+ couplings[2].trailer.sections[3].animal + "\n");
+		if (couplings[2].trailer.sections[4].animal != null)
+			builder.append(couplings[2].trailer.toString() + ": "
+					+ couplings[2].trailer.sections[4].animal + "\n");
+		if (couplings[2].trailer.sections[5].animal != null)
+			builder.append(couplings[2].trailer.toString() + ": "
+					+ couplings[2].trailer.sections[5].animal + "\n");
+
+		return builder.toString();
+	}
+
+	/**
+	 * Helper method for list print
+	 * 
+	 * @return a String with all the animals in the current transporter.
+	 */
+	public String listAnimalsInTransporter() {
+
+		StringBuilder builder = new StringBuilder();
+
+		if (sections[0].animal != null)
+			builder.append(this.toString() + ": " + sections[0].animal + "\n");
+
+		if (sections[1].animal != null)
+			builder.append(this.toString() + ": " + sections[1].animal + "\n");
+		if (sections[2].animal != null)
+			builder.append(this.toString() + ": " + sections[2].animal + "\n");
+		if (sections[3].animal != null)
+			builder.append(this.toString() + ": " + sections[3].animal + "\n");
+		if (sections[4].animal != null)
+			builder.append(this.toString() + ": " + sections[4].animal + "\n");
+		if (sections[5].animal != null)
+			builder.append(this.toString() + ": " + sections[5].animal + "\n");
+
+		return builder.toString();
+	}
+
+	/**
+	 * Helper method for list print
+	 * 
+	 * @return a String containing all the BigGames
+	 */
+	public String listBigGames() {
+		StringBuilder builder = new StringBuilder();
+
+		if (couplings[0].bigGame != null)
+			builder.append(this.toString() + ": " + couplings[0].bigGame + "\n");
+		if (couplings[1].bigGame != null)
+			builder.append(this.toString() + ": " + couplings[1].bigGame + "\n");
+
+		return builder.toString();
 	}
 
 	/**
@@ -86,20 +138,9 @@ public class Transporter {
 	 * @param n
 	 * @return boolean
 	 */
-	public boolean load(Animal a, int n) {
+	public boolean load(Loadable loadable, Integer section) {
 
-		return a.loadTo(lstSections.get(n));
-	}
-
-	/**
-	 * load a trailer to a specific coupling
-	 * 
-	 * @param t
-	 * @param c
-	 * @return
-	 */
-	public boolean load(Trailer t, int c) {
-		return lstTrailerCouplings.get(c).load(t);
+		return loadable.loadOnto(this, section);
 	}
 
 	/**
@@ -109,10 +150,10 @@ public class Transporter {
 	 * @param s
 	 * @return Animal
 	 */
-	
-	//  0 <= s <= 5
+
+	// 0 <= s <= 5
 	public Animal unload(int s) {
-		return lstSections.get(s).unload();
+		return sections[s].unload();
 
 	}
 
@@ -124,13 +165,13 @@ public class Transporter {
 	// The number of sections is always 6 and not variable
 	public Transporter unload() {
 
-		lstSections.get(0).unload();
-		lstSections.get(1).unload();
-		lstSections.get(2).unload();
-		lstSections.get(3).unload();
-		lstSections.get(4).unload();
-		lstSections.get(5).unload();
-		
+		sections[0].unload();
+		sections[1].unload();
+		sections[2].unload();
+		sections[3].unload();
+		sections[4].unload();
+		sections[5].unload();
+
 		return this;
 	}
 

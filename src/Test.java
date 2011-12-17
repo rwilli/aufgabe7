@@ -17,6 +17,7 @@ public class Test {
 		
 		
 		Animal dolphin = new Dolphin("Dolphin1");
+		Animal dolphin2 = new Dolphin("Dolphin2");
 		Animal seal = new Seal("Seal1");
 		Animal dwarf = new DwarfTortoise("Dwarf1");
 		Animal giant = new GiantTortoise("Giant1");
@@ -54,9 +55,10 @@ public class Test {
 		
 		
 		Trailer trailer1 = new Trailer(2);
+		trailer1.load(dolphin2, 0);
 		
 		// add a Trailer on the free coupling on trans1
-		System.out.println("Load Trailer to Trans1: " + trans1.load(trailer1, 2) );
+		System.out.println("Load Trailer to Trans1: " + trans1.load(trailer1, null) );
 		
 		// Print all Animals contained in trans1 or his trailers or on his couplings
 		
@@ -89,8 +91,8 @@ public class Test {
 		trans1.list();
 
 		//unload Section 1  and 2 of the transporter1
-		System.out.println( trans1.unload(0) );
-		System.out.println( trans1.unload(1) );
+		System.out.println(trans1.unload(0));
+		System.out.println(trans1.unload(1));
 		
 		System.out.println("------- After we unloaded the first and second section of the transporter---------");
 		trans1.list();
@@ -99,7 +101,7 @@ public class Test {
 		trans1.unload();
 		trans1.list();
 		
-		System.out.println("------- After we unloaded the whole transporter trans2---------");
+		System.out.println("------- After we unloaded the whole trailer trailer1---------");
 		trailer1.unload();
 		trailer1.list();
 		

@@ -17,4 +17,10 @@ public class Giraffe extends BigGame {
 		super(name);
 	}
 
+	@Override
+	public boolean loadOnto(Transporter t, Integer section) {
+		// always returns false, since load is impossible
+		return false;
+	}
+
 }

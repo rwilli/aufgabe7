@@ -19,12 +19,10 @@ public class Swordfish extends MarineLife {
 
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see Animal#unloadFrom(Section)
+	 * @see Animal#loadOnto(Transporter, java.lang.Integer)
 	 */
-	// s != null
 	@Override
-	public boolean loadTo(Section s) {
-		return s.load(this);
+	public boolean loadOnto(Transporter t, Integer section) {
+		return t.sections[section].load(this);
 	}
 }
